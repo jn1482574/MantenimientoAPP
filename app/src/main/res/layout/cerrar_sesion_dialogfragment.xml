@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+
+ <TextView
+    android:id="@+id/titulo"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:textSize="20sp"
+    android:text="Titulo"
+    />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:text="texto"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/btnCancelar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CANCELAR"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@android:color/darker_gray"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/btnAplicar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="ACEPTAR"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@android:color/holo_red_light"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

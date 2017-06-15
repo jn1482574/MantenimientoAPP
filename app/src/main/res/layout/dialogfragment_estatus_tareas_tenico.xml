@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20dp">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="16sp"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:text="@string/str_cambiar_estatus"/>
+    <RadioGroup
+        android:id="@+id/rgp_filtro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/chkbtn_todos">
+        <RadioButton
+            android:id="@+id/chkbtn_espera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/str_en_espera"
+            android:layoutDirection="rtl"
+            android:gravity="fill"/>
+
+        <RadioButton
+            android:id="@+id/chkbtn_iniciada"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/str_iniciada"
+            android:layoutDirection="rtl"
+            android:gravity="fill"/>
+
+        <RadioButton
+            android:id="@+id/chkbtn_terminada"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/str_terminada"
+            android:layoutDirection="rtl"
+            android:gravity="fill"/>
+
+
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="50dp">
+
+        <TextView
+            android:id="@+id/btnCancelar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="CANCELAR"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@android:color/darker_gray"
+            android:layout_weight="1"/>
+        <TextView
+            android:id="@+id/btnAplicar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="APLICAR"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:background="@color/colorAccent"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>

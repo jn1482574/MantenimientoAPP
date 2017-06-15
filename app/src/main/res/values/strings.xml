@@ -1,0 +1,71 @@
+<resources>
+    <string name="app_name">MantenimientoAPP</string>
+    <string name="str_usuario">Usuario</string>
+    <string name="str_pass">Contraseña</string>
+    <string name="str__aceptar">Aceptar</string>
+    <string name="str_fecha">Fecha</string>
+    <string name="str_tarea">Tarea</string>
+    <string name="str_estado">Estado</string>
+    <string name="str_titulo_administrador">Tareas Asignadas</string>
+    <string name="str_titulo_tecnico">Mis Tareas</string>
+    <string name="str_en_espera">En espera</string>
+    <string name="str_iniciada">Iniciada</string>
+    <string name="str_terminada">Terminada</string>
+    <string name="str_todos">Todos</string>
+    <string name="str_no_disponible">No hay tareas disponibles</string>
+    <string name="str_cambiar_estatus">Cambiar estatus</string>
+    <string name="str_titulo_cerrar_sesion">Cerrar Sesion!</string>
+    <string name="str_texto_cerrar_sesion">Desea cerrar la sesion actual?</string>
+    <string name="str_titulo_nombre_tarea">Tarea:</string>
+    <string name="str_titulo_descripcion_tarea">Descripcion:</string>
+    <string name="str_titulo_tipo_tarea">Tipo:</string>
+    <string name="str_titulo_activity_agregar_tarea">Agregar Tarea</string>
+    <string name="str_titulo_duracion_tarea">Duracion (minutos): </string>
+    <string name="str_titulo_minutos_tarea">min</string>
+    <string name="str_tarea_asignada">Tarea Asiganada con Exito</string>
+    <string name="str_tarea_asignada_a">Se agrago la tarea al Tecnico:</string>
+    <string name="str_granja_articulo">Articulo</string>
+    <string name="str_codigo_postal">Codigo Postal</string>
+    <string name="str_granja_id">Identificador:</string>
+    <string name="str_titulo_activity_ver_frutas">Web Service</string>
+    <string name="str_cargando">Cargando...</string>
+
+    <!-- Nombres de los items -->
+    <string-array name="nav_drawer_items">
+        <item >Agregar Tarea</item>
+        <item >Web Service</item>
+        <item >Contacto/Soporte</item>
+        <item >Acerca de</item>
+        <item >Cerrar Sesion</item>
+    </string-array>
+
+    <!-- Iconos de los items -->
+    <array name="nav_drawer_icons">
+        <item>@mipmap/ic_whats_hot</item>
+        <item>@mipmap/ic_people</item>
+        <item>@mipmap/ic_photos</item>
+        <item>@mipmap/ic_communities</item>
+        <item>@mipmap/ic_whats_hot</item>
+    </array>
+
+    <!-- Tipos de tareass -->
+    <string-array name="tipos_tareas">
+        <item >Mantenimiento</item>
+        <item >Reparacion</item>
+        <item >Limpieza</item>
+
+    </string-array>
+
+    <!-- Tipos de tareass -->
+    <string-array name="duracion_tareas">
+        <item >30</item>
+        <item >45</item>
+        <item >90</item>
+        <item >120</item>
+        <item >150</item>
+        <item >180</item>
+    </string-array>
+
+
+
+</resources>
